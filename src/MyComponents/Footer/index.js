@@ -66,43 +66,48 @@ function Footer() {
               href={Facebook}
               role="button"
               data-mdb-ripple-color="dark"
+              target="_blank"
             >
               <i className="fab fa-facebook-f"></i>
             </a>
 
-            <Link
+            <a
               className="btn btn-a btn-floating btn-lg text-dark m-1"
-              to={Twitter}
+              href={Twitter}
               role="button"
               data-mdb-ripple-color="dark"
+              target="_blank"
             >
               <i className="fab fa-twitter"></i>
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="btn btn-a btn-floating btn-lg text-dark m-1"
-              to={Youtube}
+              href={Youtube}
               role="button"
               data-mdb-ripple-color="dark"
+              target="_blank"
             >
               <i className="fab fa-youtube"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="btn btn-a btn-floating btn-lg text-dark m-1"
-              to={Instagram}
+              href={Instagram}
               role="button"
               data-mdb-ripple-color="dark"
+              target="_blank"
             >
               <i className="fab fa-instagram"></i>
-            </Link>
-            <Link
+            </a>
+            <a
               className="btn btn-a btn-floating btn-lg text-dark m-1"
-              to={LinkedIn}
+              href={LinkedIn}
               role="button"
               data-mdb-ripple-color="dark"
+              target="_blank"
             >
               <i className="fab fa-Linkedin"></i>
-            </Link>
+            </a>
           </section>
         </div>
 

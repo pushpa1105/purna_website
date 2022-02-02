@@ -29,30 +29,30 @@ function Header() {
         <nav className=" navbar  bgcolor">
           <ul className="d-flex  ps-2">
             <li>
-              <Link to="tel:9861771481">
+              <a href="tel:9861771481">
                 <FaPhoneSquareAlt />
                 +977-9861771481
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={Facebook}>
+              <a href={Facebook} target="_blank">
                 <FaFacebook />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={Instagram}>
+              <a href={Instagram} target="_blank">
                 <FaInstagram />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={Twitter}>
+              <a href={Twitter} target="_blank">
                 <FaTiktok />
-              </Link>
+              </a>
             </li>
             <li>
-              <Link to={Youtube}>
+              <a href={Youtube} target="_blank">
                 <FaYoutube />
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
