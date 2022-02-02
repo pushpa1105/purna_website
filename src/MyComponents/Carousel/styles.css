@@ -1,0 +1,27 @@
+.carousel {
+  height: 80%;
+  width: 100%;
+}
+.left-caption {
+  position: absolute;
+  top: 9rem;
+  left: 12rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: black;
+}
+.feature {
+  font-family: "Actor", sans-serif;
+}
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .left-caption {
+    top: 0;
+    left: 0.5rem;
+    font-weight: 80;
+    font-size: 15px;
+  }
+}

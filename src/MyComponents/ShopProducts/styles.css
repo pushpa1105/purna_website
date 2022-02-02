@@ -1,0 +1,54 @@
+.productimg {
+  height: 20rem;
+  width: 20rem;
+  transition: all 0.25s linear;
+}
+.productimg,
+.card {
+  border-radius: 10px !important;
+}
+.product-item ul {
+  min-height: 3rem;
+}
+ul li:last-child {
+  margin-right: 1rem;
+  float: right;
+}
+.product-item,
+.btn {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.productimg:hover {
+  transform: rotate(4deg) scale(1.1, 1.1);
+  filter: brightness(110%);
+}
+
+.heading-1 {
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 0;
+  margin-bottom: 4rem !important;
+}
+
+.heading-1.stroke {
+  position: relative;
+}
+.heading-1.stroke:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  content: "";
+  background: linear-gradient(45deg, black, transparent);
+  height: 3px;
+  width: 25%;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin-left: 2rem;
+  }
+}

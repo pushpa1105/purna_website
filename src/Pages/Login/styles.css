@@ -1,0 +1,22 @@
+.btn {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #6a5656;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+  .lgform {
+    margin-bottom: 200px;
+  }
+}

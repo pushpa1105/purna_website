@@ -1,0 +1,50 @@
+.bgcolor li {
+  padding-left: 0.9rem;
+}
+.bgcolor {
+  padding-top: 0;
+}
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: seagreen !important ;
+}
+
+nav ul li a:hover {
+  color: black !important;
+}
+
+<!--/* stroke */ -->
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: linear-gradient(45deg, black, transparent);
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+.dropdown-menu {
+  min-width: auto !important;
+}
