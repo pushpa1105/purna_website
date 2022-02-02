@@ -66,7 +66,7 @@ function ShopProducts() {
     dispatch({ type: "ADD_TO_CART", payload: product });
   };
   return (
-    <div className="container mt-2">
+    <div className="container mt-4">
       <h1 className="heading-1 text-center stroke">Our Products</h1>
       <div className="d-flex">
         <div className="nav-item col-6">
@@ -91,7 +91,7 @@ function ShopProducts() {
           }}
         >
           <option value="">All</option>
-          <option value="Tibetian">Amulya</option>
+          <option value="Amulya">Amulya</option>
           <option value="Chinese">Chinese</option>
         </select>
       </div>
@@ -104,15 +104,12 @@ function ShopProducts() {
               <div className="col-md-4 ">
                 <div className="m-2 p-2 product-item">
                   <div className="product-card">
-                    <div className="text-center">
+                    <div className="card" style={{ width: "20rem" }}>
                       <img
                         src={product.ImageUrl}
                         alt=""
-                        className="productimg"
+                        className="card-img-top "
                       />
-                    </div>
-
-                    <div className="card" style={{ width: "20rem" }}>
                       <div className="card-body">
                         <div className="d-flex">
                           <h5 className="card-title">{product.Name}</h5>

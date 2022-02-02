@@ -5,7 +5,7 @@ function Carousel() {
   return (
     <div
       id="carouselExampleDark"
-      className="carousel carousel-dark slide"
+      className="carousel carousel-dark slide mb-2"
       data-bs-ride="carousel"
     >
       <div className="carousel-indicators">
