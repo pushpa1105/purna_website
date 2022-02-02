@@ -61,14 +61,14 @@ function Footer() {
           </section>
 
           <section className="mb-4">
-            <Link
+            <a
               className="btn btn-a btn-floating btn-lg text-dark m-1"
-              to={Facebook}
+              href={Facebook}
               role="button"
               data-mdb-ripple-color="dark"
             >
               <i className="fab fa-facebook-f"></i>
-            </Link>
+            </a>
 
             <Link
               className="btn btn-a btn-floating btn-lg text-dark m-1"
