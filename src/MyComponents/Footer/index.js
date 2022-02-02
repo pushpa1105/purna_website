@@ -81,11 +81,11 @@ function Footer() {
 
             <Link
               className="btn btn-a btn-floating btn-lg text-dark m-1"
-              to="#!"
+              to={Youtube}
               role="button"
               data-mdb-ripple-color="dark"
             >
-              <i className="fab fa-google"></i>
+              <i className="fab fa-youtube"></i>
             </Link>
             <Link
               className="btn btn-a btn-floating btn-lg text-dark m-1"

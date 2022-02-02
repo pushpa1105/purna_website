@@ -14,6 +14,7 @@ import {
 
 import logo from "../../assets/logo.png";
 import "./styles.css";
+import { Facebook, Instagram, Youtube, Twitter } from "../../assets/SocialLink";
 
 function Header() {
   const { cartItems } = useSelector((state) => state.cartReducer);
@@ -28,20 +29,30 @@ function Header() {
         <nav className=" navbar  bgcolor">
           <ul className="d-flex  ps-2">
             <li>
-              <FaPhoneSquareAlt />
-              +977-9861771481
+              <Link to="tel:9861771481">
+                <FaPhoneSquareAlt />
+                +977-9861771481
+              </Link>
             </li>
             <li>
-              <FaFacebook />
+              <Link to={Facebook}>
+                <FaFacebook />
+              </Link>
             </li>
             <li>
-              <FaInstagram />
+              <Link to={Instagram}>
+                <FaInstagram />
+              </Link>
             </li>
             <li>
-              <FaTiktok />
+              <Link to={Twitter}>
+                <FaTiktok />
+              </Link>
             </li>
             <li>
-              <FaYoutube />
+              <Link to={Youtube}>
+                <FaYoutube />
+              </Link>
             </li>
           </ul>
         </nav>
